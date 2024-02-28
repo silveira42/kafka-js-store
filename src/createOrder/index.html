@@ -1,1 +1,49 @@
 <!-- A form with the fields product name, product price and quantity -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create order</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <article>
+				<div>
+					<form id="orderForm" action="">
+						<section class="container">
+							<div class="container-item">
+								<h1>Insert a new order!</h1>
+							</div>
+						</section>
+						<section class="container">
+							<div class="container-item">
+								<label for="product">Product name:</label>
+								<input type="text" name="product" id="product"/>
+							</div>
+							<div class="container-item">
+								<label for="price">Product price:</label>
+								<input type="number" name="price" id="price"/>
+							</div>
+							<div class="container-item">
+								<label for="quantity">Quantity:</label>
+								<input type="number" name="quantity" id="quantity"/>
+							</div>
+						</section>
+						<section class="container">
+							<div class="container-item">
+								<button type="" id="addEntry" value="" >Submit</button>
+							</div>
+							<div class="container-item">
+								<button type="reset">Limpar formulário</button>
+							</div>
+						</section>
+        	</form>
+				</div>
+      </article>
+      </main>
+    </body>
+    <script src="./index.js"></script>
+</html>
