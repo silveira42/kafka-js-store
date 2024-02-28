@@ -11,38 +11,41 @@
   <body>
     <main>
       <article>
-				<div>
+				<div class="container">
 					<form id="orderForm" action="">
-						<section class="container">
-							<div class="container-item">
-								<h1>Insert a new order!</h1>
+						<section class="form-header">
+							<div class="form-header__item">
+								<h1>Create a new order!</h1>
+							</div>
+							<div class="form-header__item">
+								<h2 class="cart">🛒</h1>
 							</div>
 						</section>
-						<section class="container">
-							<div class="container-item">
+						<section class="form-content">
+							<div class="form-content__item">
 								<label for="product">Product name:</label>
 								<input type="text" name="product" id="product"/>
 							</div>
-							<div class="container-item">
+							<div class="form-content__item">
 								<label for="price">Product price:</label>
 								<input type="number" name="price" id="price"/>
 							</div>
-							<div class="container-item">
+							<div class="form-content__item">
 								<label for="quantity">Quantity:</label>
 								<input type="number" name="quantity" id="quantity"/>
 							</div>
 						</section>
-						<section class="container">
-							<div class="container-item">
+						<section class="form-buttons">
+							<div class="form-buttons__item">
 								<button type="" id="addEntry" value="" >Submit</button>
 							</div>
-							<div class="container-item">
-								<button type="reset">Limpar formulário</button>
+							<div class="form-buttons__item">
+								<button type="reset" id="clear">Clear</button>
 							</div>
 						</section>
         	</form>
 					<section class="container">
-						<div class="container-item">
+						<div class="container__item">
 							<pre id="results"></pre>
 						</div>
 					</section>
