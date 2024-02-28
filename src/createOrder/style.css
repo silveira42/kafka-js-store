@@ -1,0 +1,97 @@
+body {
+	background: linear-gradient(90deg, rgba(39,236,137,1) 0%, rgba(0,117,209,1) 100%);
+	font-family: 'Gill Sans MT';
+}
+
+main button {
+	font-family: 'Gill Sans MT';
+}
+
+main .container {
+	display: flex;
+	justify-content: center;
+}
+
+main .container form {
+	padding: 30px 50px;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 15px;
+}
+
+main .form-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main .form-header__item #cart {
+	margin: 5px;
+}
+
+main .form-content__item {
+	padding: 5px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 10px;
+}
+
+main .form-content__item label {
+	font-size: 16px;
+}
+
+main .form-content__item input {
+	height: 20px;
+	padding: 5px 10px;
+	background-color: rgb(240, 240, 240);
+	border: 1px solid rgb(228, 228, 228);
+	border-radius: 5px;
+}
+
+main .form-content__item input:focus-within {
+	outline: none;
+}
+
+main .form-buttons {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+
+main .form-buttons #addEntry {
+	width: 100px;
+	height: 35px;
+	font-size: 20px;
+	color: #fff;
+	background-color: rgb(0,117,209);
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+main .form-buttons #addEntry:hover {
+	transition-duration: 0.3s;
+	transform: scale(1.05);
+}
+
+main .form-buttons #clear {
+	font-size: 15px;
+	color: rgb(134, 134, 134);
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+main .form-buttons #clear:hover {
+	font-size: 15px;
+	color: rgb(73, 73, 73);
+	background-color: transparent;
+	border: none;
+	text-decoration: underline;
+}
