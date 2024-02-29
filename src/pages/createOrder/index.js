@@ -1,9 +1,9 @@
-import { sendRequest } from "./../index.js";
-import { API_HOST } from "./../env.js";
+import { sendRequest } from '../../scripts/sendRequest.js';
+import { API_HOST } from '../../scripts/env.js';
 
 const orderForm = document.getElementById('orderForm');
 
-if (orderForm){
+if (orderForm) {
 	orderForm.addEventListener('submit', createOrder);
 }
 
